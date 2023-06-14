@@ -1,0 +1,15 @@
+name: Feature integration
+description: File a bug report
+title: "[Integration]: "
+labels: ["enhancement"]
+assignees:
+  - Bimpli
+body:
+  - type: markdown
+    attributes:
+      description: Manage environment integration
+      value: |
+        - [ ] Development
+        - [ ] Release
+        - [ ] Tag
+        - [ ] Main

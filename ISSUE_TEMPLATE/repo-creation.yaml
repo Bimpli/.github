@@ -1,0 +1,53 @@
+name: Repository creation
+description: File a bug report
+title: "[Repo Creation]: "
+labels: ["enhancement"]
+assignees:
+  - Bimpli
+body:
+  - type: markdown
+    attributes:
+      description: Workflow management
+      value: |
+        - Init workflows:
+          - [ ] integrate pre-commit
+          - [ ] code quality workflow:
+            - [ ] Linter
+            - [ ] Unit testing
+          - [ ] deployment workflow
+          - [ ] manage environment variable and secret
+        - [ ] Create banch:
+          - [ ] main
+          - [ ] release
+          - [ ] develop
+        - [ ] Manage branch protection rules for each branch
+          - [ ] main:
+            - [ ] Require a pull request before merging
+            - [ ] Require approvals
+            - [ ] Dismiss stale pull request approvals when new commits are pushed
+            - [ ] Require approval of the most recent reviewable push
+            - [ ] Require status checks to pass before merging
+            - [ ] Require branches to be up to date before merging
+            - [ ] Add workflow status check
+            - [ ] Require conversation resolution before merging
+            - [ ] Do not allow bypassing the above settings
+          - [ ] release:
+            - [ ] Require a pull request before merging
+            - [ ] Require approvals
+            - [ ] Dismiss stale pull request approvals when new commits are pushed
+            - [ ] Require approval of the most recent reviewable push
+            - [ ] Require status checks to pass before merging
+            - [ ] Require branches to be up to date before merging
+            - [ ] Add workflow status check
+            - [ ] Require conversation resolution before merging
+            - [ ] Do not allow bypassing the above settings
+          - [ ] develop:
+            - [ ] Require a pull request before merging
+            - [ ] Require approvals
+            - [ ] Dismiss stale pull request approvals when new commits are pushed
+            - [ ] Require approval of the most recent reviewable push
+            - [ ] Require status checks to pass before merging
+            - [ ] Require branches to be up to date before merging
+            - [ ] Add workflow status check
+            - [ ] Require conversation resolution before merging
+            - [ ] Do not allow bypassing the above settings
