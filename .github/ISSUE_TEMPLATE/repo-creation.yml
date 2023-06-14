@@ -3,8 +3,9 @@ description: File a bug report
 title: "[Repo Creation]: "
 labels: ["enhancement"]
 body:
-  - type: markdown
+  - type: textarea
     attributes:
+      label: Workflow
       value: |
         - Init workflows:
           - [ ] integrate pre-commit
