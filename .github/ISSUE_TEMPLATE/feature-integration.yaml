@@ -2,8 +2,6 @@ name: Feature integration
 description: File a bug report
 title: "[Integration]: "
 labels: ["enhancement"]
-assignees:
-  - Bimpli
 body:
   - type: markdown
     attributes:

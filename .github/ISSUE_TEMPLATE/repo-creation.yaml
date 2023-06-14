@@ -2,8 +2,6 @@ name: Repository creation
 description: File a bug report
 title: "[Repo Creation]: "
 labels: ["enhancement"]
-assignees:
-  - Bimpli
 body:
   - type: markdown
     attributes:
